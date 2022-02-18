@@ -1,0 +1,9 @@
+2022-02-11 14:22:39,623 - test_case01.py[line:21] - test_case01 - INFO - 用例序号:testcase_01
+2022-02-11 14:22:39,624 - test_case01.py[line:22] - test_case01 - INFO - 用例名称:loginOauth
+2022-02-11 14:22:39,624 - test_case01.py[line:23] - test_case01 - INFO - 请求url:http://uat.drp.orsd.tech/drpapi/oauth/loginOauth
+2022-02-11 14:22:39,624 - test_case01.py[line:24] - test_case01 - INFO - 请求数据:{"username":"wuhaiyan", "password":"49ca2906599a55321586de19c9c835e1"}
+2022-02-11 14:22:39,624 - test_case01.py[line:25] - test_case01 - INFO - 请求方式:POST
+2022-02-11 14:22:39,624 - test_case01.py[line:26] - test_case01 - INFO - 请求头:header
+2022-02-11 14:22:39,626 - test_case01.py[line:27] - test_case01 - INFO - 依赖:None
+2022-02-11 14:22:39,626 - test_case01.py[line:28] - test_case01 - INFO - 预期结果:code
+2022-02-11 14:22:39,751 - test_case01.py[line:33] - test_case01 - INFO - 返回结果为:{"code": "0000", "msg": "Login was successful.", "data": {"subject": "wuhaiyan", "accessToken": "eyJhbGciOiJIUzUxMiJ9.eyJhdWQiOiIxIiwic3ViIjoid3VoYWl5YW4iLCJleHAiOjE2NDQ1ODkzNTgsImlhdCI6MTY0NDU2MDU1OH0.AXnaQi1yJ247AFl3fTAFy6TA0ZyDL9gi5UFnyIG7WXS4X5LHjp-YoYj9L4y-ko31YQAzJKGPtXS71gmDTc1iFg", "refreshToken": "eyJhbGciOiJIUzUxMiJ9.eyJhdWQiOiIyIiwic3ViIjoid3VoYWl5YW4iLCJleHAiOjE2NDUxNjUzNTgsImlhdCI6MTY0NDU2MDU1OH0.chtVJrYElwWo_1KYT98paWRvwh-vTv7PSiFFRB_8c8KySDqJ2tNJLcDjiXxNBVoXojwc7deVDXwoNhr1SMj94g", "tokenType": "jwt", "expiresIn": 28800000, "scope": "all", "refreshTime": 7100000}}

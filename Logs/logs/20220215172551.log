@@ -1,0 +1,17 @@
+2022-02-15 17:25:51,880 - test_case01.py[line:21] - test_case01 - INFO - 用例序号:testcase_01
+2022-02-15 17:25:51,880 - test_case01.py[line:22] - test_case01 - INFO - 用例名称:loginOauth
+2022-02-15 17:25:51,880 - test_case01.py[line:23] - test_case01 - INFO - 请求url:http://uat.drp.orsd.tech/drpapi/oauth/loginOauth
+2022-02-15 17:25:51,880 - test_case01.py[line:24] - test_case01 - INFO - 请求数据:{"username":"wuhaiyan", "password":"49ca2906599a55321586de19c9c835e1"}
+2022-02-15 17:25:51,880 - test_case01.py[line:25] - test_case01 - INFO - 请求方式:POST
+2022-02-15 17:25:51,880 - test_case01.py[line:26] - test_case01 - INFO - 请求头:header
+2022-02-15 17:25:51,882 - test_case01.py[line:27] - test_case01 - INFO - 依赖:None
+2022-02-15 17:25:51,882 - test_case01.py[line:28] - test_case01 - INFO - 预期结果:code
+2022-02-15 17:25:52,096 - test_case01.py[line:31] - test_case01 - INFO - 返回结果为:{"code": "0000", "msg": "Login was successful.", "data": {"subject": "wuhaiyan", "accessToken": "eyJhbGciOiJIUzUxMiJ9.eyJhdWQiOiIxIiwic3ViIjoid3VoYWl5YW4iLCJleHAiOjE2NDQ5NDU5NTIsImlhdCI6MTY0NDkxNzE1Mn0.OWT2uCacAF2eynV_eAUHeaTo839Q1mhjJfemnOiybU0h4tUqBgObsigT92uta6l8TWpRZrg5Q3STY9jc980pDA", "refreshToken": "eyJhbGciOiJIUzUxMiJ9.eyJhdWQiOiIyIiwic3ViIjoid3VoYWl5YW4iLCJleHAiOjE2NDU1MjE5NTIsImlhdCI6MTY0NDkxNzE1Mn0.NFZXhOcZf-U16jmhqkWTc2YBuFeQuLqyd1C4V51A40gVNPHpKk7D3llFZtMFM5sqyd1YT7KxWdwkCnLLuY4qBw", "tokenType": "jwt", "expiresIn": 28800000, "scope": "all", "refreshTime": 7100000}}
+2022-02-15 17:25:52,097 - test_case01.py[line:21] - test_case01 - INFO - 用例序号:testcase_02
+2022-02-15 17:25:52,097 - test_case01.py[line:22] - test_case01 - INFO - 用例名称:refreshOauthToken
+2022-02-15 17:25:52,097 - test_case01.py[line:23] - test_case01 - INFO - 请求url:http://uat.drp.orsd.tech/drpapi/oauth/refreshOauthToken
+2022-02-15 17:25:52,097 - test_case01.py[line:24] - test_case01 - INFO - 请求数据:None
+2022-02-15 17:25:52,097 - test_case01.py[line:25] - test_case01 - INFO - 请求方式:POST
+2022-02-15 17:25:52,097 - test_case01.py[line:26] - test_case01 - INFO - 请求头:yes
+2022-02-15 17:25:52,097 - test_case01.py[line:27] - test_case01 - INFO - 依赖:refreshToken
+2022-02-15 17:25:52,098 - test_case01.py[line:28] - test_case01 - INFO - 预期结果:code

@@ -1,0 +1,18 @@
+2022-02-11 15:54:12,359 - test_case01.py[line:21] - test_case01 - INFO - 用例序号:testcase_01
+2022-02-11 15:54:12,359 - test_case01.py[line:22] - test_case01 - INFO - 用例名称:loginOauth
+2022-02-11 15:54:12,359 - test_case01.py[line:23] - test_case01 - INFO - 请求url:http://uat.drp.orsd.tech/drpapi/oauth/loginOauth
+2022-02-11 15:54:12,359 - test_case01.py[line:24] - test_case01 - INFO - 请求数据:{"username":"wuhaiyan", "password":"49ca2906599a55321586de19c9c835e1"}
+2022-02-11 15:54:12,359 - test_case01.py[line:25] - test_case01 - INFO - 请求方式:POST
+2022-02-11 15:54:12,360 - test_case01.py[line:26] - test_case01 - INFO - 请求头:header
+2022-02-11 15:54:12,362 - test_case01.py[line:27] - test_case01 - INFO - 依赖:None
+2022-02-11 15:54:12,362 - test_case01.py[line:28] - test_case01 - INFO - 预期结果:code
+2022-02-11 15:54:12,474 - test_case01.py[line:33] - test_case01 - INFO - 返回结果为:{"code": "0000", "msg": "Login was successful.", "data": {"subject": "wuhaiyan", "accessToken": "eyJhbGciOiJIUzUxMiJ9.eyJhdWQiOiIxIiwic3ViIjoid3VoYWl5YW4iLCJleHAiOjE2NDQ1OTQ4NTEsImlhdCI6MTY0NDU2NjA1MX0.LZqtqatZTsomh85v-TD53sEIC4Bd3vmC16xY_VrAzN2Zx0go2abF_pryuGie9vyN4g39O1APHLpoInuY9VDv1w", "refreshToken": "eyJhbGciOiJIUzUxMiJ9.eyJhdWQiOiIyIiwic3ViIjoid3VoYWl5YW4iLCJleHAiOjE2NDUxNzA4NTEsImlhdCI6MTY0NDU2NjA1MX0.VBzdWslV9DR6mlMI-KHT1VRDCwNMbb7puKHOinbZ7WH1OM9WI3Jl4tMJnyjLvG9dwiu2M8RQHhrW2H9wn8emnw", "tokenType": "jwt", "expiresIn": 28800000, "scope": "all", "refreshTime": 7100000}}
+2022-02-11 15:54:12,475 - test_case01.py[line:21] - test_case01 - INFO - 用例序号:testcase_02
+2022-02-11 15:54:12,475 - test_case01.py[line:22] - test_case01 - INFO - 用例名称:refreshOauthToken
+2022-02-11 15:54:12,475 - test_case01.py[line:23] - test_case01 - INFO - 请求url:http://uat.drp.orsd.tech/drpapi/oauth/refreshOauthToken
+2022-02-11 15:54:12,475 - test_case01.py[line:24] - test_case01 - INFO - 请求数据:None
+2022-02-11 15:54:12,475 - test_case01.py[line:25] - test_case01 - INFO - 请求方式:POST
+2022-02-11 15:54:12,475 - test_case01.py[line:26] - test_case01 - INFO - 请求头:yes
+2022-02-11 15:54:12,476 - test_case01.py[line:27] - test_case01 - INFO - 依赖:refreshToken
+2022-02-11 15:54:12,476 - test_case01.py[line:28] - test_case01 - INFO - 预期结果:code
+2022-02-11 15:54:12,493 - test_case01.py[line:33] - test_case01 - INFO - 返回结果为:{"timestamp": "2022-02-11T07:54:11.516+0000", "status": 400, "error": "Bad Request", "message": "Required request body is missing: public com.oristand.starcloud.common.response.ResponseData com.oristand.starcloud.api.controller.oauth.OAuthController.refreshToken(com.oristand.starcloud.pojo.core.vo.YahooUserVO,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)", "path": "/drpapi/oauth/refreshOauthToken"}
