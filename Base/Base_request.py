@@ -24,15 +24,15 @@ class BaseRequest:
                 op.write_data(res)
 
         elif header == "yes":
-            op_json = OperationJson('D:\daima\Data-DrivenFramework-master\PublicConfig/token.json')
+            op_json = OperationJson('D:\daima\interface2\PublicConfig/token.json')
             token = op_json.get_data('Authorization')
             header = {
                 "Content-type": "application/json;charset=UTF-8",
                 "Authorization": 'Bearer ' + eval(token)
             }
             if key7 != None and key6 != None:
-                op_dependata = OpentionDependdata(res, 'D:\daima\Data-DrivenFramework-master\PublicConfig/depend.json')
-                op_dependata.read_dependdata('D:\daima\Data-DrivenFramework-master\PublicConfig/depend.json')
+                op_dependata = OpentionDependdata(res, 'D:\daima\interface2\PublicConfig/depend.json')
+                op_dependata.read_dependdata('D:\daima\interface2\PublicConfig/depend.json')
                 depend_response_data = op_dependata.get_dependdata(key7, aaaaa=key7)
                 depend_field = key8
                 request_data2 = {depend_field: eval(depend_response_data)}  # 请求数据=依赖的返回数据
@@ -47,15 +47,15 @@ class BaseRequest:
     def send_get(self, url, data=None, header=None,key7=None,key6=None,key8=None):
         res = None
         if header == "yes":
-            op_json = OperationJson('D:\daima\Data-DrivenFramework-master\PublicConfig/token.json')
+            op_json = OperationJson('D:\daima\interface2\PublicConfig/token.json')
             token = op_json.get_data('Authorization')
             header = {
                 "Content-type": "application/json;charset=UTF-8",
                 "Authorization": 'Bearer ' + eval(token)
             }
             if key7 != None and key6 != None:
-                op_dependata = OpentionDependdata(res, 'D:\daima\Data-DrivenFramework-master\PublicConfig/depend.json')
-                op_dependata.read_dependdata('D:\daima\Data-DrivenFramework-master\PublicConfig/depend.json')
+                op_dependata = OpentionDependdata(res, 'D:\daima\interface2\PublicConfig/depend.json')
+                op_dependata.read_dependdata('D:\daima\interface2\PublicConfig/depend.json')
                 depend_response_data = op_dependata.get_dependdata(key7, aaaaa=key7)
                 depend_field = key8
                 request_data2 = {depend_field: eval(depend_response_data)}  # 请求数据=依赖的返回数据

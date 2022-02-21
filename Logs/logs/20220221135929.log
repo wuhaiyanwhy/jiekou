@@ -1,0 +1,66 @@
+2022-02-21 13:59:30,003 - test_case01.py[line:21] - test_case01 - INFO - 用例序号:testcase_01
+2022-02-21 13:59:30,003 - test_case01.py[line:22] - test_case01 - INFO - 用例名称:loginOauth
+2022-02-21 13:59:30,003 - test_case01.py[line:23] - test_case01 - INFO - 请求url:http://uat.drp.orsd.tech/drpapi/oauth/loginOauth
+2022-02-21 13:59:30,003 - test_case01.py[line:24] - test_case01 - INFO - 请求数据:{"username":"wuhaiyan", "password":"49ca2906599a55321586de19c9c835e1"}
+2022-02-21 13:59:30,003 - test_case01.py[line:25] - test_case01 - INFO - 请求方式:POST
+2022-02-21 13:59:30,003 - test_case01.py[line:26] - test_case01 - INFO - 请求头:header
+2022-02-21 13:59:30,006 - test_case01.py[line:27] - test_case01 - INFO - 依赖:None
+2022-02-21 13:59:30,006 - test_case01.py[line:28] - test_case01 - INFO - 依赖的返回数据:refreshToken
+2022-02-21 13:59:30,006 - test_case01.py[line:29] - test_case01 - INFO - 数据依赖字段:None
+2022-02-21 13:59:30,006 - test_case01.py[line:30] - test_case01 - INFO - 预期结果:code
+2022-02-21 13:59:30,170 - test_case01.py[line:33] - test_case01 - INFO - 返回结果为:{"code": "0000", "msg": "Login was successful.", "data": {"subject": "wuhaiyan", "accessToken": "eyJhbGciOiJIUzUxMiJ9.eyJhdWQiOiIxIiwic3ViIjoid3VoYWl5YW4iLCJleHAiOjE2NDU0NTE5NjksImlhdCI6MTY0NTQyMzE2OX0.7MFjbmagHx5YtFpT1RKjZS1KCVXXKb3SUbDlqZrWnB1CA9PMPAev9SoM9x4zWmsqDa5OKR_HGwgCqs0jFmwSlQ", "refreshToken": "eyJhbGciOiJIUzUxMiJ9.eyJhdWQiOiIyIiwic3ViIjoid3VoYWl5YW4iLCJleHAiOjE2NDYwMjc5NjksImlhdCI6MTY0NTQyMzE2OX0.eOTXXtKUhUfWjfLrPuFq_J_l4JJ5fcpQUOmdPLRY_SWzKGn1xuLCfYXzxIcwZTyH4jSak99nMXWO79R8vXW-Eg", "tokenType": "jwt", "expiresIn": 28800000, "scope": "all", "refreshTime": 7100000}}
+2022-02-21 13:59:30,170 - test_case01.py[line:21] - test_case01 - INFO - 用例序号:testcase_02
+2022-02-21 13:59:30,170 - test_case01.py[line:22] - test_case01 - INFO - 用例名称:refreshOauthToken
+2022-02-21 13:59:30,170 - test_case01.py[line:23] - test_case01 - INFO - 请求url:http://uat.drp.orsd.tech/drpapi/oauth/refreshOauthToken
+2022-02-21 13:59:30,170 - test_case01.py[line:24] - test_case01 - INFO - 请求数据:None
+2022-02-21 13:59:30,170 - test_case01.py[line:25] - test_case01 - INFO - 请求方式:POST
+2022-02-21 13:59:30,171 - test_case01.py[line:26] - test_case01 - INFO - 请求头:yes
+2022-02-21 13:59:30,171 - test_case01.py[line:27] - test_case01 - INFO - 依赖:case1
+2022-02-21 13:59:30,171 - test_case01.py[line:28] - test_case01 - INFO - 依赖的返回数据:refreshToken
+2022-02-21 13:59:30,171 - test_case01.py[line:29] - test_case01 - INFO - 数据依赖字段:refreshToken
+2022-02-21 13:59:30,171 - test_case01.py[line:30] - test_case01 - INFO - 预期结果:code
+2022-02-21 13:59:30,219 - test_case01.py[line:33] - test_case01 - INFO - 返回结果为:{"code": "0000", "msg": "success", "data": {"subject": "wuhaiyan", "accessToken": "eyJhbGciOiJIUzUxMiJ9.eyJhdWQiOiIxIiwic3ViIjoid3VoYWl5YW4iLCJleHAiOjE2NDU0NTE5NzAsImlhdCI6MTY0NTQyMzE3MH0.pdSgmPE0HdHdo7Z6nJUJmC7YlN-n-rHTXniQN0MzO5WKYZwjG0PYesVLj8mtCwAqreaA9omxRYo1FOoABIRC6w", "refreshToken": null, "tokenType": "jwt", "expiresIn": 0, "scope": "all", "refreshTime": 30000}}
+2022-02-21 13:59:30,220 - test_case01.py[line:21] - test_case01 - INFO - 用例序号:testcase_03
+2022-02-21 13:59:30,220 - test_case01.py[line:22] - test_case01 - INFO - 用例名称:listWarehouse
+2022-02-21 13:59:30,220 - test_case01.py[line:23] - test_case01 - INFO - 请求url:http://uat.drp.orsd.tech/drpapi/warehouse/truck/listWarehouse
+2022-02-21 13:59:30,220 - test_case01.py[line:24] - test_case01 - INFO - 请求数据:None
+2022-02-21 13:59:30,220 - test_case01.py[line:25] - test_case01 - INFO - 请求方式:POST
+2022-02-21 13:59:30,220 - test_case01.py[line:26] - test_case01 - INFO - 请求头:yes
+2022-02-21 13:59:30,220 - test_case01.py[line:27] - test_case01 - INFO - 依赖:None
+2022-02-21 13:59:30,220 - test_case01.py[line:28] - test_case01 - INFO - 依赖的返回数据:None
+2022-02-21 13:59:30,220 - test_case01.py[line:29] - test_case01 - INFO - 数据依赖字段:None
+2022-02-21 13:59:30,220 - test_case01.py[line:30] - test_case01 - INFO - 预期结果:code
+2022-02-21 13:59:30,259 - test_case01.py[line:33] - test_case01 - INFO - 返回结果为:{"code": "401", "data": "", "msg": "Your account has been logged in elsewhere,please log in again."}
+2022-02-21 13:59:30,260 - test_case01.py[line:21] - test_case01 - INFO - 用例序号:testcase_04
+2022-02-21 13:59:30,260 - test_case01.py[line:22] - test_case01 - INFO - 用例名称:make_order
+2022-02-21 13:59:30,260 - test_case01.py[line:23] - test_case01 - INFO - 请求url:http://192.168.20.167:9876/usosj_test/order/dealOrders?platform=amazon&storeId=153&orderAmount=1&isImport=no
+2022-02-21 13:59:30,260 - test_case01.py[line:24] - test_case01 - INFO - 请求数据:{"platform":"amazon", "storeId":"153", "orderAmount":"1", "isImport":"no"}
+2022-02-21 13:59:30,260 - test_case01.py[line:25] - test_case01 - INFO - 请求方式:GET
+2022-02-21 13:59:30,260 - test_case01.py[line:26] - test_case01 - INFO - 请求头:yes
+2022-02-21 13:59:30,261 - test_case01.py[line:27] - test_case01 - INFO - 依赖:None
+2022-02-21 13:59:30,261 - test_case01.py[line:28] - test_case01 - INFO - 依赖的返回数据:None
+2022-02-21 13:59:30,261 - test_case01.py[line:29] - test_case01 - INFO - 数据依赖字段:None
+2022-02-21 13:59:30,261 - test_case01.py[line:30] - test_case01 - INFO - 预期结果:code
+2022-02-21 13:59:30,332 - test_case01.py[line:33] - test_case01 - INFO - 返回结果为:{"code": "200", "filePath": "/wosSysFile/testOrderExcel/amazon-20220220215928.xlsx", "orderList": [{"orderId": "112-3964715-2907073", "ordersFrom": "", "storeName": "Buymax", "orderDate": "2021-09-19 14:29", "shipName": "Guiana Bloom", "shipCompany": null, "shipAddress1": "3423 KIMBER DR", "shipAddress2": "", "shipCity": "NEWBURY PARK", "shipState": "CA", "shipZipCode": "91320-4354", "shipCountryCode": "US", "shipPhone": "+1 763-225-9463 ext. 06217", "shipMethod": "Std US D2D Dom", "discountAmount": 0.0, "taxAmount": 0.0, "shipAmount": 0.0, "orderTotal": 278.84, "customerComments": null, "lineItemNumber": 1, "sellerSku": "B071SLBCQY", "itemCode": "MS192229AAB_707", "altItemId": "06160704872562", "description": "Merax Easy Assembly Folding Treadmill Motorized Running Jogging Machine (Gray Black)", "qty": 1, "itemUnitPrice": 259.99, "itemUnitDiscount": 0.0, "itemUnitWeight": null, "storeId": 153, "orderNumber": null, "isExported": null, "sku": "MS192229AAE-001", "itemShipAmount": null, "itemTax": 18.85, "billEmail": "2s7dr00q35q87tt@marketplace.amazon.com", "stockOut": null, "addressType": "Residential", "creationDate": "2022-02-20 21:59:28.914", "shippingTax": null, "scheduledDeliveryStartDate": "", "scheduledDeliveryEndDate": "", "promiseResponseDueDate": "", "earliestShipDate": "2021-08-08 12:00", "latestShipDate": "2021-08-09 23:59", "earliestDeliveryDate": "2021-09-14 12:00", "latestDeliveryDate": "2021-09-28 23:59", "billName": "Guiana", "billCompany": null, "billAddress1": null, "billAddress2": null, "billCity": null, "billState": null, "billZipCode": null, "billCountryCode": null, "billPhone": null}], "operationResult": "\u63d2\u5165\u8bb0\u5f55\u6761\u6570 = 1, \u8c03\u6574\u5e93\u5b58\u7ed3\u679c = success"}
+2022-02-21 13:59:30,332 - test_case01.py[line:21] - test_case01 - INFO - 用例序号:testcase_05
+2022-02-21 13:59:30,333 - test_case01.py[line:22] - test_case01 - INFO - 用例名称:edit_order
+2022-02-21 13:59:30,333 - test_case01.py[line:23] - test_case01 - INFO - 请求url:http://uat.drp.orsd.tech/drpapi/monitor/job/edit
+2022-02-21 13:59:30,333 - test_case01.py[line:24] - test_case01 - INFO - 请求数据:{"id":60,"jobName":"callStoreProcOrderImportPickUpTask","jobGroup":"OrderImport","methodName":"runParams","methodParams":"[153]","cronExpression":"0 20/45 * ? * *","misfirePolicy":3,"status":2,"duringRunPolicy":2,"deleteIdList":null}
+2022-02-21 13:59:30,333 - test_case01.py[line:25] - test_case01 - INFO - 请求方式:POST
+2022-02-21 13:59:30,333 - test_case01.py[line:26] - test_case01 - INFO - 请求头:yes
+2022-02-21 13:59:30,333 - test_case01.py[line:27] - test_case01 - INFO - 依赖:None
+2022-02-21 13:59:30,333 - test_case01.py[line:28] - test_case01 - INFO - 依赖的返回数据:None
+2022-02-21 13:59:30,333 - test_case01.py[line:29] - test_case01 - INFO - 数据依赖字段:None
+2022-02-21 13:59:30,334 - test_case01.py[line:30] - test_case01 - INFO - 预期结果:code
+2022-02-21 13:59:30,427 - test_case01.py[line:33] - test_case01 - INFO - 返回结果为:{"code": "401", "data": "", "msg": "Your account has been logged in elsewhere,please log in again."}
+2022-02-21 13:59:30,428 - test_case01.py[line:21] - test_case01 - INFO - 用例序号:testcase_06
+2022-02-21 13:59:30,428 - test_case01.py[line:22] - test_case01 - INFO - 用例名称:job_run
+2022-02-21 13:59:30,428 - test_case01.py[line:23] - test_case01 - INFO - 请求url:http://uat.drp.orsd.tech/drpapi/monitor/job/run
+2022-02-21 13:59:30,428 - test_case01.py[line:24] - test_case01 - INFO - 请求数据:{"id":60}
+2022-02-21 13:59:30,428 - test_case01.py[line:25] - test_case01 - INFO - 请求方式:POST
+2022-02-21 13:59:30,428 - test_case01.py[line:26] - test_case01 - INFO - 请求头:yes
+2022-02-21 13:59:30,429 - test_case01.py[line:27] - test_case01 - INFO - 依赖:None
+2022-02-21 13:59:30,429 - test_case01.py[line:28] - test_case01 - INFO - 依赖的返回数据:None
+2022-02-21 13:59:30,429 - test_case01.py[line:29] - test_case01 - INFO - 数据依赖字段:None
+2022-02-21 13:59:30,429 - test_case01.py[line:30] - test_case01 - INFO - 预期结果:code
+2022-02-21 13:59:30,489 - test_case01.py[line:33] - test_case01 - INFO - 返回结果为:{"code": "401", "data": "", "msg": "Your account has been logged in elsewhere,please log in again."}

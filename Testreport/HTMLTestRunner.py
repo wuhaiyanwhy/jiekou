@@ -693,7 +693,7 @@ table       { font-size: 100%; }
     # 失败 的样式，去掉原来JS效果，美化展示效果  -Findyou / 美化类名上下居中，有截图列 -- Gelomen
     REPORT_TEST_WITH_OUTPUT_TMPL_1 = r"""
 <tr id='%(tid)s' class='%(Class)s'>
-    <td class='%(style)s' style="vertical-align: middle"><div class='testcase'>%(name)s</div></td>
+    <td class='%(style)s' style="vertical-align: middle;word-break:break-all"><div class='testcase'>%(name)s</div></td>
     <td style="vertical-align: middle">%(doc)s</td>
     <td colspan='5' align='center'>
     <!--默认收起错误信息 -Findyou
@@ -714,7 +714,7 @@ table       { font-size: 100%; }
     # 失败 的样式，去掉原来JS效果，美化展示效果  -Findyou / 美化类名上下居中，无截图列 -- Gelomen
     REPORT_TEST_WITH_OUTPUT_TMPL_0 = r"""
     <tr id='%(tid)s' class='%(Class)s'>
-        <td class='%(style)s' style="vertical-align: middle"><div class='testcase'>%(name)s</div></td>
+        <td class='%(style)s' style="vertical-align: middle;word-break:break-all"><div class='testcase'>%(name)s</div></td>
         <td style="vertical-align: middle">%(doc)s</td>
         <td colspan='5' align='center'>
         <!--默认收起错误信息 -Findyou
@@ -735,7 +735,7 @@ table       { font-size: 100%; }
     # 通过 的样式，加标签效果  -Findyou / 美化类名上下居中 -- Gelomen
     REPORT_TEST_NO_OUTPUT_TMPL = r"""
 <tr id='%(tid)s' class='%(Class)s'>
-    <td class='%(style)s' style="vertical-align: middle"><div class='testcase'>%(name)s</div></td>
+    <td class='%(style)s' style="vertical-align: middle;word-break:break-all"><div class='testcase'>%(name)s</div></td>
     <td style="vertical-align: left">%(doc)s</td>
     <td colspan='5' align='center'><span class="label label-success success">%(status)s</span></td>
     <td class='%(style)s' style="vertical-align: middle"></td>

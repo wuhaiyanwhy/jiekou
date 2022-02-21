@@ -9,7 +9,7 @@ import json
 class OperationJson():
 
     def __init__(self,file_path=None):
-        self.file_path = 'D:\daima\Data-DrivenFramework-master\PublicConfig/token.json'
+        self.file_path = 'D:\daima\interface2\PublicConfig/token.json'
         # if file_path == None:
         #     self.file_path = 'D:\daima\Data-DrivenFramework-masterRSD\PublicConfig\search.json'
         # else:
@@ -36,6 +36,6 @@ class OperationJson():
             return json1
 
 if __name__ == '__main__':
-    opjson = OperationJson('D:\daima\Data-DrivenFramework-master\PublicConfig/token.json')
+    opjson = OperationJson('D:\daima\interface2\PublicConfig/token.json')
     opjson.get_data("Authorization")
 

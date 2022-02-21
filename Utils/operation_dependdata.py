@@ -3,7 +3,7 @@ import json
 class OpentionDependdata:
     def __init__(self,res,file_path):
         # self.data = GetData()
-        self.file_path = 'D:\daima\Data-DrivenFramework-master\PublicConfig/depend.json'
+        self.file_path = 'D:\daima\interface2\PublicConfig/depend.json'
         self.dataaaa = self.read_dependdata(file_path)
 
     # 读取json文件

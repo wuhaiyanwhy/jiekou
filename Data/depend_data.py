@@ -1,7 +1,7 @@
 import json
 class OpentionData:
     def __init__(self):
-        self.file_path = 'D:\daima\Data-DrivenFramework-master\PublicConfig/depend.json'
+        self.file_path = 'D:\daima\interface2\PublicConfig/depend.json'
     # 写json
     def write_data(self,response):
         with open(self.file_path, 'w') as fp:

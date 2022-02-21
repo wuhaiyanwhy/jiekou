@@ -215,14 +215,14 @@ table       { font-size: 100%; }
                 innerSize: '80%',
                 name: '比例',
                 data: [
-                    ['通过', 4],
+                    ['通过', 0],
                     {
                         name: '失败',
-                        y: 1,
+                        y: 0,
                         sliced: true,
                         selected: true
                     },
-                    ['错误', 1]
+                    ['错误', 6]
                 ]
             }]
         }, function(c) {
@@ -353,11 +353,11 @@ function html_escape(s) {
 <div style="width: 650px; float: left;">
     <h1 style="font-family: Microsoft YaHei">接口自动化测试报告</h1>
     <p class='attribute'><strong>测试人员 : </strong> QA</p>
-<p class='attribute'><strong>开始时间 : </strong> 2022-02-16 10:28:30</p>
-<p class='attribute'><strong>合计耗时 : </strong> 0:00:00.888623</p>
-<p class='attribute'><strong>测试结果 : </strong> 共 6，通过 4，失败 1，错误 1，通过率 = 66.67%</p>
-<p class='attribute'><strong>失败用例合集 : </strong> <div class='panel-default' style='float: left;'><a class='showDetail' data-toggle='collapse' href='#failCaseOl' style='text-decoration: none;'>点击查看</a></div><ol id='failCaseOl' class='collapse' style='float: left;'><li>test_case_4___testcase_04____make_order____http___192_168_20_167_9876_usosj_test_order_dealOrders_platform_amazon_storeId_153_orderAmount_1_isImport_no______platform___amazon____storeId___153____orderAmount___1____isImport___no______GET____yes___None__None__None___code___None__None_ (test_case01.TestCase01)</li></ol></p>
-<p class='attribute'><strong>错误用例合集 : </strong> <div class='panel-default' style='float: left;'><a class='showDetail' data-toggle='collapse' href='#errorCaseOl' style='text-decoration: none;'>点击查看</a></div><ol id='errorCaseOl' class='collapse' style='float: left;'><li>test_case_5___testcase_05____edit_order____http___uat_drp_orsd_tech_drpapi_monitor_job_edit______id__60__jobName___callStoreProcOrderImportPickUpTask___jobGroup___OrderImport___methodName___runParams___methodParams____153____cronExpression___0_20_45___________misfirePolicy__3__status__2__duringRunPolicy__2__remark___上门取货平台订单导入___deleteIdList__null_____POST____yes___None__None__None___code___None__None_ (test_case01.TestCase01)</li></ol></p>
+<p class='attribute'><strong>开始时间 : </strong> 2022-02-21 14:13:42</p>
+<p class='attribute'><strong>合计耗时 : </strong> 0:00:00.422870</p>
+<p class='attribute'><strong>测试结果 : </strong> 共 6，错误 6，通过率 = 0.00%</p>
+<p class='attribute'><strong>失败用例合集 : </strong> <ol style='float: left;'>无</ol></p>
+<p class='attribute'><strong>错误用例合集 : </strong> <div class='panel-default' style='float: left;'><a class='showDetail' data-toggle='collapse' href='#errorCaseOl' style='text-decoration: none;'>点击查看</a></div><ol id='errorCaseOl' class='collapse' style='float: left;'><li>test_case_1___testcase_01____loginOauth____http___uat_drp_orsd_tech_drpapi_oauth_loginOauth______username___wuhaiyan____password___49ca2906599a55321586de19c9c835e1______POST____header___None___refreshToken___None___code___None__None_ (test_case01.TestCase01)</li><li>test_case_2___testcase_02____refreshOauthToken____http___uat_drp_orsd_tech_drpapi_oauth_refreshOauthToken___None___POST____yes____case1____refreshToken____refreshToken____code___None__None_ (test_case01.TestCase01)</li><li>test_case_3___testcase_03____listWarehouse____http___uat_drp_orsd_tech_drpapi_warehouse_truck_listWarehouse___None___POST____yes___None__None__None___code___None__None_ (test_case01.TestCase01)</li><li>test_case_4___testcase_04____make_order____http___192_168_20_167_9876_usosj_test_order_dealOrders_platform_amazon_storeId_153_orderAmount_1_isImport_no______platform___amazon____storeId___153____orderAmount___1____isImport___no______GET____yes___None__None__None___code___None__None_ (test_case01.TestCase01)</li><li>test_case_5___testcase_05____edit_order____http___uat_drp_orsd_tech_drpapi_monitor_job_edit______id__60__jobName___callStoreProcOrderImportPickUpTask___jobGroup___OrderImport___methodName___runParams___methodParams____153____cronExpression___0_20_45___________misfirePolicy__3__status__2__duringRunPolicy__2__deleteIdList__null_____POST____yes___None__None__None___code___None__None_ (test_case01.TestCase01)</li><li>test_case_6___testcase_06____job_run____http___uat_drp_orsd_tech_drpapi_monitor_job_run______id__60_____POST____yes___None__None__None___code___None__None_ (test_case01.TestCase01)</li></ol></p>
 
     <p class='description'>用例测试情况</p>
 </div>
@@ -367,10 +367,10 @@ function html_escape(s) {
 
 <div style="width: 500px; clear: both;">
 <p id='show_detail_line'>
-<a class="btn btn-primary" href='javascript:showCase(0)'>概要{ 66.67% }</a>
-<a class="btn btn-success" href='javascript:showCase(2)'>通过{ 4 }</a>
-<a class="btn btn-danger" href='javascript:showCase(1)'>失败{ 1 }</a>
-<a class="btn btn-warning" href='javascript:showCase(3)'>错误{ 1 }</a>
+<a class="btn btn-primary" href='javascript:showCase(0)'>概要{ 0.00% }</a>
+<a class="btn btn-success" href='javascript:showCase(2)'>通过{ 0 }</a>
+<a class="btn btn-danger" href='javascript:showCase(1)'>失败{ 0 }</a>
+<a class="btn btn-warning" href='javascript:showCase(3)'>错误{ 6 }</a>
 <a class="btn btn-info" href='javascript:showCase(4)'>所有{ 6 }</a>
 </p>
 </div>
@@ -400,65 +400,153 @@ function html_escape(s) {
     <td>TestCase01</td>
     <td></td>
     <td class="text-center">6</td>
-    <td class="text-center">4</td>
-    <td class="text-center">1</td>
-    <td class="text-center">1</td>
-    <td class="text-center">0.89秒</td>
+    <td class="text-center">0</td>
+    <td class="text-center">0</td>
+    <td class="text-center">6</td>
+    <td class="text-center">0.42秒</td>
     <td class="text-center"><a href="javascript:showClassDetail('c1',6)" class="detail" id='c1'>详细</a></td>
 </tr>
 
-<tr id='pt1_1' class='hiddenRow'>
-    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_case_1___testcase_01____loginOauth____http___uat_drp_orsd_tech_drpapi_oauth_loginOauth______username___wuhaiyan____password___49ca2906599a55321586de19c9c835e1______POST____header___None___refreshToken___None___code___None__None_</div></td>
-    <td style="vertical-align: left"></td>
-    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
-    <td class='passCase' style="vertical-align: middle"></td>
-</tr>
-
-<tr id='pt1_2' class='hiddenRow'>
-    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_case_2___testcase_02____refreshOauthToken____http___uat_drp_orsd_tech_drpapi_oauth_refreshOauthToken___None___POST____yes____case1____refreshToken____refreshToken____code___None__None_</div></td>
-    <td style="vertical-align: left"></td>
-    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
-    <td class='passCase' style="vertical-align: middle"></td>
-</tr>
-
-<tr id='pt1_3' class='hiddenRow'>
-    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_case_3___testcase_03____listWarehouse____http___uat_drp_orsd_tech_drpapi_warehouse_truck_listWarehouse___None___POST____yes___None__None__None___code___None__None_</div></td>
-    <td style="vertical-align: left"></td>
-    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
-    <td class='passCase' style="vertical-align: middle"></td>
-</tr>
-
-    <tr id='ft1_4' class='none'>
-        <td class='failCase' style="vertical-align: middle"><div class='testcase'>test_case_4___testcase_04____make_order____http___192_168_20_167_9876_usosj_test_order_dealOrders_platform_amazon_storeId_153_orderAmount_1_isImport_no______platform___amazon____storeId___153____orderAmount___1____isImport___no______GET____yes___None__None__None___code___None__None_</div></td>
+    <tr id='et1_1' class='none'>
+        <td class='errorCase' style="vertical-align: middle;word-break:break-all"><div class='testcase'>test_case_1___testcase_01____loginOauth____http___uat_drp_orsd_tech_drpapi_oauth_loginOauth______username___wuhaiyan____password___49ca2906599a55321586de19c9c835e1______POST____header___None___refreshToken___None___code___None__None_</div></td>
         <td style="vertical-align: middle"></td>
         <td colspan='5' align='center'>
         <!--默认收起错误信息 -Findyou
-        <button id='btn_ft1_4' type="button"  class="btn btn-xs collapsed" data-toggle="collapse" data-target='#div_ft1_4'>失败</button>
-        <div id='div_ft1_4' class="collapse">  -->
+        <button id='btn_et1_1' type="button"  class="btn btn-xs collapsed" data-toggle="collapse" data-target='#div_et1_1'>错误</button>
+        <div id='div_et1_1' class="collapse">  -->
         <!-- 默认展开错误信息 -Findyou /  修复失败按钮的颜色 -- Gelomen -->
-        <button id='btn_ft1_4' type="button"  class="btn btn-xs" data-toggle="collapse" data-target='#div_ft1_4'>失败</button>
-        <div id='div_ft1_4' class="collapse in">
+        <button id='btn_et1_1' type="button"  class="btn btn-xs" data-toggle="collapse" data-target='#div_et1_1'>错误</button>
+        <div id='div_et1_1' class="collapse in">
         <pre style="text-align:left">
         
-ft1_4: Traceback (most recent call last):
+et1_1: Traceback (most recent call last):
   File "D:\应用安装\python3.8\lib\site-packages\ddt.py", line 191, in wrapper
     return func(self, *args, **kwargs)
-  File "D:\daima\Data-DrivenFramework-master\UnittestCase\test_case01.py", line 38, in test_case
-    self.assertEqual(res[data[9]], "0000", msg='预期和返回不一致')
-AssertionError: '200' != '0000'
-- 200
-+ 0000
- : 预期和返回不一致
+  File "D:\daima\interface2\UnittestCase\test_case01.py", line 32, in test_case
+    response = request.run(data[4], data[2], data[3], data[5],data[7],data[6],data[8])
+  File "D:\daima\interface2\Base\Base_request.py", line 87, in run
+    res = self.send_post(url, data, cookie_id,key7,key6,key8)
+  File "D:\daima\interface2\Base\Base_request.py", line 21, in send_post
+    op_header.write_token()
+  File "D:\daima\interface2\Utils\operation_header.py", line 24, in write_token
+    op_json = OperationJson()
+  File "D:\daima\interface2\Utils\operation_json.py", line 17, in __init__
+    self.data = self.read_data()
+  File "D:\daima\interface2\Utils\operation_json.py", line 25, in read_data
+    with open(self.file_path) as fp:
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\daima\\Data-DrivenFramework-master\\PublicConfig/token.json'
 
 
         </pre>
         </div>
         </td>
-        <td class='failCase' style="vertical-align: middle"></td>
+        <td class='errorCase' style="vertical-align: middle"></td>
+    </tr>
+    
+    <tr id='et1_2' class='none'>
+        <td class='errorCase' style="vertical-align: middle;word-break:break-all"><div class='testcase'>test_case_2___testcase_02____refreshOauthToken____http___uat_drp_orsd_tech_drpapi_oauth_refreshOauthToken___None___POST____yes____case1____refreshToken____refreshToken____code___None__None_</div></td>
+        <td style="vertical-align: middle"></td>
+        <td colspan='5' align='center'>
+        <!--默认收起错误信息 -Findyou
+        <button id='btn_et1_2' type="button"  class="btn btn-xs collapsed" data-toggle="collapse" data-target='#div_et1_2'>错误</button>
+        <div id='div_et1_2' class="collapse">  -->
+        <!-- 默认展开错误信息 -Findyou /  修复失败按钮的颜色 -- Gelomen -->
+        <button id='btn_et1_2' type="button"  class="btn btn-xs" data-toggle="collapse" data-target='#div_et1_2'>错误</button>
+        <div id='div_et1_2' class="collapse in">
+        <pre style="text-align:left">
+        
+et1_2: Traceback (most recent call last):
+  File "D:\应用安装\python3.8\lib\site-packages\ddt.py", line 191, in wrapper
+    return func(self, *args, **kwargs)
+  File "D:\daima\interface2\UnittestCase\test_case01.py", line 32, in test_case
+    response = request.run(data[4], data[2], data[3], data[5],data[7],data[6],data[8])
+  File "D:\daima\interface2\Base\Base_request.py", line 87, in run
+    res = self.send_post(url, data, cookie_id,key7,key6,key8)
+  File "D:\daima\interface2\Base\Base_request.py", line 27, in send_post
+    op_json = OperationJson('D:\daima\Data-DrivenFramework-master\PublicConfig/token.json')
+  File "D:\daima\interface2\Utils\operation_json.py", line 17, in __init__
+    self.data = self.read_data()
+  File "D:\daima\interface2\Utils\operation_json.py", line 25, in read_data
+    with open(self.file_path) as fp:
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\daima\\Data-DrivenFramework-master\\PublicConfig/token.json'
+
+
+        </pre>
+        </div>
+        </td>
+        <td class='errorCase' style="vertical-align: middle"></td>
+    </tr>
+    
+    <tr id='et1_3' class='none'>
+        <td class='errorCase' style="vertical-align: middle;word-break:break-all"><div class='testcase'>test_case_3___testcase_03____listWarehouse____http___uat_drp_orsd_tech_drpapi_warehouse_truck_listWarehouse___None___POST____yes___None__None__None___code___None__None_</div></td>
+        <td style="vertical-align: middle"></td>
+        <td colspan='5' align='center'>
+        <!--默认收起错误信息 -Findyou
+        <button id='btn_et1_3' type="button"  class="btn btn-xs collapsed" data-toggle="collapse" data-target='#div_et1_3'>错误</button>
+        <div id='div_et1_3' class="collapse">  -->
+        <!-- 默认展开错误信息 -Findyou /  修复失败按钮的颜色 -- Gelomen -->
+        <button id='btn_et1_3' type="button"  class="btn btn-xs" data-toggle="collapse" data-target='#div_et1_3'>错误</button>
+        <div id='div_et1_3' class="collapse in">
+        <pre style="text-align:left">
+        
+et1_3: Traceback (most recent call last):
+  File "D:\应用安装\python3.8\lib\site-packages\ddt.py", line 191, in wrapper
+    return func(self, *args, **kwargs)
+  File "D:\daima\interface2\UnittestCase\test_case01.py", line 32, in test_case
+    response = request.run(data[4], data[2], data[3], data[5],data[7],data[6],data[8])
+  File "D:\daima\interface2\Base\Base_request.py", line 87, in run
+    res = self.send_post(url, data, cookie_id,key7,key6,key8)
+  File "D:\daima\interface2\Base\Base_request.py", line 27, in send_post
+    op_json = OperationJson('D:\daima\Data-DrivenFramework-master\PublicConfig/token.json')
+  File "D:\daima\interface2\Utils\operation_json.py", line 17, in __init__
+    self.data = self.read_data()
+  File "D:\daima\interface2\Utils\operation_json.py", line 25, in read_data
+    with open(self.file_path) as fp:
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\daima\\Data-DrivenFramework-master\\PublicConfig/token.json'
+
+
+        </pre>
+        </div>
+        </td>
+        <td class='errorCase' style="vertical-align: middle"></td>
+    </tr>
+    
+    <tr id='et1_4' class='none'>
+        <td class='errorCase' style="vertical-align: middle;word-break:break-all"><div class='testcase'>test_case_4___testcase_04____make_order____http___192_168_20_167_9876_usosj_test_order_dealOrders_platform_amazon_storeId_153_orderAmount_1_isImport_no______platform___amazon____storeId___153____orderAmount___1____isImport___no______GET____yes___None__None__None___code___None__None_</div></td>
+        <td style="vertical-align: middle"></td>
+        <td colspan='5' align='center'>
+        <!--默认收起错误信息 -Findyou
+        <button id='btn_et1_4' type="button"  class="btn btn-xs collapsed" data-toggle="collapse" data-target='#div_et1_4'>错误</button>
+        <div id='div_et1_4' class="collapse">  -->
+        <!-- 默认展开错误信息 -Findyou /  修复失败按钮的颜色 -- Gelomen -->
+        <button id='btn_et1_4' type="button"  class="btn btn-xs" data-toggle="collapse" data-target='#div_et1_4'>错误</button>
+        <div id='div_et1_4' class="collapse in">
+        <pre style="text-align:left">
+        
+et1_4: Traceback (most recent call last):
+  File "D:\应用安装\python3.8\lib\site-packages\ddt.py", line 191, in wrapper
+    return func(self, *args, **kwargs)
+  File "D:\daima\interface2\UnittestCase\test_case01.py", line 32, in test_case
+    response = request.run(data[4], data[2], data[3], data[5],data[7],data[6],data[8])
+  File "D:\daima\interface2\Base\Base_request.py", line 85, in run
+    res = self.send_get(url, data, cookie_id)
+  File "D:\daima\interface2\Base\Base_request.py", line 50, in send_get
+    op_json = OperationJson('D:\daima\Data-DrivenFramework-master\PublicConfig/token.json')
+  File "D:\daima\interface2\Utils\operation_json.py", line 17, in __init__
+    self.data = self.read_data()
+  File "D:\daima\interface2\Utils\operation_json.py", line 25, in read_data
+    with open(self.file_path) as fp:
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\daima\\Data-DrivenFramework-master\\PublicConfig/token.json'
+
+
+        </pre>
+        </div>
+        </td>
+        <td class='errorCase' style="vertical-align: middle"></td>
     </tr>
     
     <tr id='et1_5' class='none'>
-        <td class='errorCase' style="vertical-align: middle"><div class='testcase'>test_case_5___testcase_05____edit_order____http___uat_drp_orsd_tech_drpapi_monitor_job_edit______id__60__jobName___callStoreProcOrderImportPickUpTask___jobGroup___OrderImport___methodName___runParams___methodParams____153____cronExpression___0_20_45___________misfirePolicy__3__status__2__duringRunPolicy__2__remark___上门取货平台订单导入___deleteIdList__null_____POST____yes___None__None__None___code___None__None_</div></td>
+        <td class='errorCase' style="vertical-align: middle;word-break:break-all"><div class='testcase'>test_case_5___testcase_05____edit_order____http___uat_drp_orsd_tech_drpapi_monitor_job_edit______id__60__jobName___callStoreProcOrderImportPickUpTask___jobGroup___OrderImport___methodName___runParams___methodParams____153____cronExpression___0_20_45___________misfirePolicy__3__status__2__duringRunPolicy__2__deleteIdList__null_____POST____yes___None__None__None___code___None__None_</div></td>
         <td style="vertical-align: middle"></td>
         <td colspan='5' align='center'>
         <!--默认收起错误信息 -Findyou
@@ -472,35 +560,17 @@ AssertionError: '200' != '0000'
 et1_5: Traceback (most recent call last):
   File "D:\应用安装\python3.8\lib\site-packages\ddt.py", line 191, in wrapper
     return func(self, *args, **kwargs)
-  File "D:\daima\Data-DrivenFramework-master\UnittestCase\test_case01.py", line 32, in test_case
+  File "D:\daima\interface2\UnittestCase\test_case01.py", line 32, in test_case
     response = request.run(data[4], data[2], data[3], data[5],data[7],data[6],data[8])
-  File "D:\daima\Data-DrivenFramework-master\Base\Base_request.py", line 87, in run
+  File "D:\daima\interface2\Base\Base_request.py", line 87, in run
     res = self.send_post(url, data, cookie_id,key7,key6,key8)
-  File "D:\daima\Data-DrivenFramework-master\Base\Base_request.py", line 43, in send_post
-    result = requests.post(url=url, data=data, headers=header).json()
-  File "D:\应用安装\python3.8\lib\site-packages\requests\api.py", line 117, in post
-    return request('post', url, data=data, json=json, **kwargs)
-  File "D:\应用安装\python3.8\lib\site-packages\requests\api.py", line 61, in request
-    return session.request(method=method, url=url, **kwargs)
-  File "D:\应用安装\python3.8\lib\site-packages\requests\sessions.py", line 542, in request
-    resp = self.send(prep, **send_kwargs)
-  File "D:\应用安装\python3.8\lib\site-packages\requests\sessions.py", line 655, in send
-    r = adapter.send(request, **kwargs)
-  File "D:\应用安装\python3.8\lib\site-packages\requests\adapters.py", line 439, in send
-    resp = conn.urlopen(
-  File "D:\应用安装\python3.8\lib\site-packages\urllib3\connectionpool.py", line 699, in urlopen
-    httplib_response = self._make_request(
-  File "D:\应用安装\python3.8\lib\site-packages\urllib3\connectionpool.py", line 394, in _make_request
-    conn.request(method, url, **httplib_request_kw)
-  File "D:\应用安装\python3.8\lib\site-packages\urllib3\connection.py", line 239, in request
-    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
-  File "D:\应用安装\python3.8\lib\http\client.py", line 1240, in request
-    self._send_request(method, url, body, headers, encode_chunked)
-  File "D:\应用安装\python3.8\lib\http\client.py", line 1285, in _send_request
-    body = _encode(body, 'body')
-  File "D:\应用安装\python3.8\lib\http\client.py", line 160, in _encode
-    raise UnicodeEncodeError(
-UnicodeEncodeError: 'latin-1' codec can't encode characters in position 223-232: Body ('上门取货平台订单导入') is not valid Latin-1. Use body.encode('utf-8') if you want to send it encoded in UTF-8.
+  File "D:\daima\interface2\Base\Base_request.py", line 27, in send_post
+    op_json = OperationJson('D:\daima\Data-DrivenFramework-master\PublicConfig/token.json')
+  File "D:\daima\interface2\Utils\operation_json.py", line 17, in __init__
+    self.data = self.read_data()
+  File "D:\daima\interface2\Utils\operation_json.py", line 25, in read_data
+    with open(self.file_path) as fp:
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\daima\\Data-DrivenFramework-master\\PublicConfig/token.json'
 
 
         </pre>
@@ -509,21 +579,48 @@ UnicodeEncodeError: 'latin-1' codec can't encode characters in position 223-232:
         <td class='errorCase' style="vertical-align: middle"></td>
     </tr>
     
-<tr id='pt1_6' class='hiddenRow'>
-    <td class='passCase' style="vertical-align: middle"><div class='testcase'>test_case_6___testcase_06____job_run____http___uat_drp_orsd_tech_drpapi_monitor_job_run______id__60_____POST____yes___None__None__None___code___None__None_</div></td>
-    <td style="vertical-align: left"></td>
-    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
-    <td class='passCase' style="vertical-align: middle"></td>
-</tr>
+    <tr id='et1_6' class='none'>
+        <td class='errorCase' style="vertical-align: middle;word-break:break-all"><div class='testcase'>test_case_6___testcase_06____job_run____http___uat_drp_orsd_tech_drpapi_monitor_job_run______id__60_____POST____yes___None__None__None___code___None__None_</div></td>
+        <td style="vertical-align: middle"></td>
+        <td colspan='5' align='center'>
+        <!--默认收起错误信息 -Findyou
+        <button id='btn_et1_6' type="button"  class="btn btn-xs collapsed" data-toggle="collapse" data-target='#div_et1_6'>错误</button>
+        <div id='div_et1_6' class="collapse">  -->
+        <!-- 默认展开错误信息 -Findyou /  修复失败按钮的颜色 -- Gelomen -->
+        <button id='btn_et1_6' type="button"  class="btn btn-xs" data-toggle="collapse" data-target='#div_et1_6'>错误</button>
+        <div id='div_et1_6' class="collapse in">
+        <pre style="text-align:left">
+        
+et1_6: Traceback (most recent call last):
+  File "D:\应用安装\python3.8\lib\site-packages\ddt.py", line 191, in wrapper
+    return func(self, *args, **kwargs)
+  File "D:\daima\interface2\UnittestCase\test_case01.py", line 32, in test_case
+    response = request.run(data[4], data[2], data[3], data[5],data[7],data[6],data[8])
+  File "D:\daima\interface2\Base\Base_request.py", line 87, in run
+    res = self.send_post(url, data, cookie_id,key7,key6,key8)
+  File "D:\daima\interface2\Base\Base_request.py", line 27, in send_post
+    op_json = OperationJson('D:\daima\Data-DrivenFramework-master\PublicConfig/token.json')
+  File "D:\daima\interface2\Utils\operation_json.py", line 17, in __init__
+    self.data = self.read_data()
+  File "D:\daima\interface2\Utils\operation_json.py", line 25, in read_data
+    with open(self.file_path) as fp:
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\daima\\Data-DrivenFramework-master\\PublicConfig/token.json'
 
+
+        </pre>
+        </div>
+        </td>
+        <td class='errorCase' style="vertical-align: middle"></td>
+    </tr>
+    
 <tr id='total_row' class="text-center active">
     <td colspan='2'>总计</td>
     <td>6</td>
-    <td>4</td>
-    <td>1</td>
-    <td>1</td>
-    <td>0.89秒</td>
-    <td>通过率：66.67%</td>
+    <td>0</td>
+    <td>0</td>
+    <td>6</td>
+    <td>0.42秒</td>
+    <td>通过率：0.00%</td>
 </tr>
 </table>
 
