@@ -6,8 +6,6 @@ import json
 import unittest
 from Logs.Logger_func import Logger
 from Base.Base_request import request
-from Utils.Json_diff import json_diff
-from Utils.Excel_handle import HandleExcel
 from Utils.Data_structure import get_case_data
 
 logger = Logger(logger='test_case01').getlog()

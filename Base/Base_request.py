@@ -4,7 +4,6 @@
 import requests
 import json
 from PublicConfig.Useragent_config import useragent
-from Utils.Cookie_handle import get_cookie_value, write_cookie
 from Utils.operation_header import OperationHeader
 from Utils.operation_json import OperationJson
 from Data.depend_data import OpentionData
