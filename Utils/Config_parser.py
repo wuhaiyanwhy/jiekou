@@ -1,6 +1,4 @@
 # -*-coding:utf-8 -*-
-# @Author: lixiao
-# Created on: 2020-08-11
 
 from Logs.Logger_func import Logger
 from configparser import ConfigParser

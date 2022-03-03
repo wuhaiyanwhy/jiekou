@@ -1,6 +1,4 @@
 # -*-coding:utf-8 -*-
-# @Author: lixiao
-# Created on: 2020-08-11
 
 from Utils.Config_parser import config
 from Utils.Excel_handle import HandleExcel

@@ -1,6 +1,4 @@
 # -*-coding:utf-8 -*-
-# @Author: lixiao
-# Created on: 2020-08-11
 
 from deepdiff import DeepDiff
 from Utils.Json_handle import get_value

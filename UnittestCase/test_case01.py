@@ -1,6 +1,6 @@
 # -*-coding:utf-8 -*-
-# @Author: lixiao
-# Created on: 2020-08-11
+# @Author: why
+# Created on: ---
 import ddt
 import json
 import unittest
@@ -34,6 +34,7 @@ class TestCase01(unittest.TestCase):
         # logger.info('返回状态码为:{}'.format(response.json.loads().status_code))
 
         res = json.loads(response)
+        print(res)
         # print(type(res))
         self.assertEqual(res[data[9]], "0000", msg='预期和返回不一致')
         # HandleExcel().write_data(HandleExcel().get_case_number(data[0]), 11, "pass")

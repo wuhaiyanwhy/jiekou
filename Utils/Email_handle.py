@@ -1,7 +1,4 @@
 # -*-coding:utf-8 -*-
-# @Author: lixiao
-# Created on: 2020-08-11
-
 import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart

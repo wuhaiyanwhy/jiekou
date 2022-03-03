@@ -1,7 +1,5 @@
 # -*-coding:utf-8 -*-
-# @Author: lixiao
-# Created on: 2020-08-11
-# coding:utf-8
+
 
 import requests
 import json

@@ -1,6 +1,5 @@
 # -*-coding:utf-8 -*-
-# @Author: lixiao
-# Created on: 2020-08-11
+# @Author: why
 
 import random
 
