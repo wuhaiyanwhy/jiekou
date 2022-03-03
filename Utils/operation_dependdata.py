@@ -1,5 +1,6 @@
-# coding:utf-8
-import json
+# -*-coding:utf-8 -*-
+# @Author: why
+# Created on: ---import json
 class OpentionDependdata:
     def __init__(self,res,file_path):
         # self.data = GetData()

@@ -1,3 +1,6 @@
+# -*-coding:utf-8 -*-
+# @Author: why
+# Created on: ---
 import json
 class OpentionData:
     def __init__(self):

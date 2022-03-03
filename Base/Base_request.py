@@ -1,6 +1,6 @@
 # -*-coding:utf-8 -*-
-
-
+# @Author: why
+# Created on: ---
 import requests
 import json
 from PublicConfig.Useragent_config import useragent

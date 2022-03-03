@@ -1,5 +1,6 @@
-#coding:utf-8
-import json
+# -*-coding:utf-8 -*-
+# @Author: why
+# Created on: ---import json
 # 简单的写法
 # fp = open('D:\daima\ORSD\dataconfig\data.json')
 # data = json.load(fp)
