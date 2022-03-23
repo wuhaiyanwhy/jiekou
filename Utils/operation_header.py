@@ -14,11 +14,14 @@ class OperationHeader:
         '''
         获取登录返回的accessToken
         '''
-
         token1 = self.res['data']['accessToken']
+
+        # token1 = self.json.loads['data']['accessToken']
         token = {
             "Authorization":token1
         }
+        # token1 = json.loads(json_data)["orderList"]
+
         return token
     def write_token(self):
         token = self.get_response_token()

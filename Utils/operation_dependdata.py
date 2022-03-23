@@ -1,6 +1,7 @@
 # -*-coding:utf-8 -*-
 # @Author: why
-# Created on: ---import json
+# Created on: ---
+import json
 class OpentionDependdata:
     def __init__(self,res,file_path):
         # self.data = GetData()
@@ -34,5 +35,6 @@ class OpentionDependdata:
     #         return json_exe
 
 if __name__ == '__main__':
-    op_dependata =  OpentionData(res,i)
+    op_dependata =  OpentionDependdata(res)
     op_dependata.write_data(res)
+
