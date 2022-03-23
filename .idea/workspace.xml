@@ -4,9 +4,20 @@
     <list default="true" id="96b0ba20-6cc2-4a49-8d65-23f00d172cc1" name="Default Changelist" comment="# @Author: why&#10;# Created on: 2020-08-11&#10;# coding:utf-8">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Base/Base_request.py" beforeDir="false" afterPath="$PROJECT_DIR$/Base/Base_request.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/logs/20220224192820.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/logs/20220224192844.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/logs/20220303170347.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/logs/20220303170357.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/logs/20220303170429.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/logs/20220303170502.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/logs/20220303170503.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/logs/20220303170540.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/PublicConfig/depend.json" beforeDir="false" afterPath="$PROJECT_DIR$/PublicConfig/depend.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PublicConfig/token.json" beforeDir="false" afterPath="$PROJECT_DIR$/PublicConfig/token.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Testcase/testcase.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Testcase/testcase.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testreport/20220303170224testreport.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testreport/20220303170356testreport.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testreport/20220303170540testreport.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/UnittestCase/test_case01.py" beforeDir="false" afterPath="$PROJECT_DIR$/UnittestCase/test_case01.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Utils/operation_dependdata.py" beforeDir="false" afterPath="$PROJECT_DIR$/Utils/operation_dependdata.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Utils/operation_header.py" beforeDir="false" afterPath="$PROJECT_DIR$/Utils/operation_header.py" afterDir="false" />
@@ -112,8 +123,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/UnittestCase/test_case01.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="82" selection-start-line="82" selection-end-line="82" />
+            <state relative-caret-position="308">
+              <caret line="61" column="53" lean-forward="true" selection-start-line="61" selection-start-column="53" selection-end-line="61" selection-end-column="53" />
               <folding>
                 <element signature="e#55#65#0" expanded="true" />
               </folding>
@@ -272,7 +283,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="43" />
     <option name="y" value="34" />
     <option name="width" value="1936" />
@@ -335,6 +346,11 @@
               <item name="interface2" type="b2602c69:ProjectViewProjectNode" />
               <item name="interface2" type="462c0819:PsiDirectoryNode" />
               <item name="Testcase" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="interface2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="interface2" type="462c0819:PsiDirectoryNode" />
+              <item name="Testreport" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="interface2" type="b2602c69:ProjectViewProjectNode" />
@@ -497,12 +513,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_test_case01_py - 2022.03.23 at 17h 20m 38s.xml">
-      <configuration name="Unittests in test_case01.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_case01_TestCase01_test_case - 2022.03.23 at 17h 26m 38s.xml">
-      <configuration name="Unittests for test_case01.TestCase01.test_case" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_in_test_case01_py - 2022.03.23 at 17h 26m 41s.xml">
       <configuration name="Unittests in test_case01.py" configurationId="tests" />
     </history-entry>
@@ -527,6 +537,12 @@
     <history-entry file="Unittests_in_test_case01_py - 2022.03.23 at 17h 37m 07s.xml">
       <configuration name="Unittests in test_case01.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_in_test_case01_py - 2022.03.23 at 17h 37m 44s.xml">
+      <configuration name="Unittests in test_case01.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_case01_py - 2022.03.23 at 17h 38m 10s.xml">
+      <configuration name="Unittests in test_case01.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -538,23 +554,22 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49914822" visible="true" weight="0.14278187" />
       <window_info id="Structure" order="1" sideWeight="0.5008518" side_tool="true" weight="0.13540569" />
       <window_info id="Favorites" order="2" sideWeight="0.5008518" side_tool="true" weight="0.13540569" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.118171684" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.118171684" />
       <window_info anchor="bottom" id="Debug" order="2" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="5" weight="0.32899022" />
       <window_info anchor="bottom" id="Version Control" order="6" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.21850613" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.52396876" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50052685" side_tool="true" weight="0.329718" />
-      <window_info anchor="bottom" id="Python Console" order="9" weight="0.21932682" />
-      <window_info active="true" anchor="bottom" id="Run" order="10" sideWeight="0.49947312" visible="true" weight="0.33333334" />
+      <window_info anchor="bottom" id="Python Console" order="9" weight="0.21850613" />
+      <window_info anchor="bottom" id="Run" order="10" sideWeight="0.49947312" weight="0.56298774" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -862,8 +877,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/UnittestCase/test_case01.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="82" selection-start-line="82" selection-end-line="82" />
+        <state relative-caret-position="308">
+          <caret line="61" column="53" lean-forward="true" selection-start-line="61" selection-start-column="53" selection-end-line="61" selection-end-column="53" />
           <folding>
             <element signature="e#55#65#0" expanded="true" />
           </folding>
