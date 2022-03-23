@@ -3,24 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="96b0ba20-6cc2-4a49-8d65-23f00d172cc1" name="Default Changelist" comment="# @Author: why&#10;# Created on: 2020-08-11&#10;# coding:utf-8">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Base/Base_request.py" beforeDir="false" afterPath="$PROJECT_DIR$/Base/Base_request.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/logs/20220224192820.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/logs/20220224192844.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/logs/20220303170347.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/logs/20220303170357.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/logs/20220303170429.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/logs/20220303170502.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/logs/20220303170503.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/logs/20220303170540.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PublicConfig/depend.json" beforeDir="false" afterPath="$PROJECT_DIR$/PublicConfig/depend.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PublicConfig/token.json" beforeDir="false" afterPath="$PROJECT_DIR$/PublicConfig/token.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testcase/testcase.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Testcase/testcase.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testreport/20220303170224testreport.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testreport/20220303170356testreport.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testreport/20220303170540testreport.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnittestCase/test_case01.py" beforeDir="false" afterPath="$PROJECT_DIR$/UnittestCase/test_case01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Utils/operation_dependdata.py" beforeDir="false" afterPath="$PROJECT_DIR$/Utils/operation_dependdata.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Utils/operation_header.py" beforeDir="false" afterPath="$PROJECT_DIR$/Utils/operation_header.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -123,8 +105,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/UnittestCase/test_case01.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="61" column="53" lean-forward="true" selection-start-line="61" selection-start-column="53" selection-end-line="61" selection-end-column="53" />
+            <state relative-caret-position="350">
+              <caret line="81" column="76" lean-forward="true" selection-start-line="81" selection-start-column="76" selection-end-line="81" selection-end-column="76" />
               <folding>
                 <element signature="e#55#65#0" expanded="true" />
               </folding>
@@ -283,7 +265,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="43" />
     <option name="y" value="34" />
     <option name="width" value="1936" />
@@ -566,7 +548,7 @@
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="5" weight="0.32899022" />
       <window_info anchor="bottom" id="Version Control" order="6" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.52396876" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.33779263" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50052685" side_tool="true" weight="0.329718" />
       <window_info anchor="bottom" id="Python Console" order="9" weight="0.21850613" />
       <window_info anchor="bottom" id="Run" order="10" sideWeight="0.49947312" weight="0.56298774" />
@@ -877,8 +859,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/UnittestCase/test_case01.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="61" column="53" lean-forward="true" selection-start-line="61" selection-start-column="53" selection-end-line="61" selection-end-column="53" />
+        <state relative-caret-position="350">
+          <caret line="81" column="76" lean-forward="true" selection-start-line="81" selection-start-column="76" selection-end-line="81" selection-end-column="76" />
           <folding>
             <element signature="e#55#65#0" expanded="true" />
           </folding>
