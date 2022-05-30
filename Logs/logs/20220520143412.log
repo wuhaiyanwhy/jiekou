@@ -1,0 +1,234 @@
+2022-05-20 14:34:12,809 - test_case01.py[line:23] - test_case01 - INFO - 
+                         _    _         _      _____         _
+          __ _ _ __ (_)  / \  _   _| |_ __|_   _|__  ___| |_
+         / _` | '_ \| | / _ \| | | | __/ _ \| |/ _ \/ __| __|
+        | (_| | |_) | |/ ___ \ |_| | || (_) | |  __/\__ \ |_
+         \__,_| .__/|_/_/   \_\__,_|\__\___/|_|\___||___/\__|
+              |_|
+              Starting      ...     ...     ...
+            
+2022-05-20 14:34:12,809 - test_case01.py[line:32] - test_case01 - INFO - 用例序号:testcase_01
+2022-05-20 14:34:12,809 - test_case01.py[line:33] - test_case01 - INFO - 用例名称:loginOauth
+2022-05-20 14:34:12,811 - test_case01.py[line:34] - test_case01 - INFO - 请求url:http://uat.drp.orsd.tech/drpapi/oauth/loginOauth
+2022-05-20 14:34:12,811 - test_case01.py[line:35] - test_case01 - INFO - 请求数据:{"username":"wuhaiyan", "password":"e10adc3949ba59abbe56e057f20f883e"}
+2022-05-20 14:34:12,812 - test_case01.py[line:36] - test_case01 - INFO - 请求方式:POST
+2022-05-20 14:34:12,812 - test_case01.py[line:37] - test_case01 - INFO - 请求头:header
+2022-05-20 14:34:12,812 - test_case01.py[line:38] - test_case01 - INFO - 依赖:None
+2022-05-20 14:34:12,812 - test_case01.py[line:39] - test_case01 - INFO - 依赖的返回数据:refreshToken
+2022-05-20 14:34:12,812 - test_case01.py[line:40] - test_case01 - INFO - 数据依赖字段:None
+2022-05-20 14:34:12,812 - test_case01.py[line:41] - test_case01 - INFO - 预期结果:code
+2022-05-20 14:34:12,971 - test_case01.py[line:81] - test_case01 - INFO - 返回结果为:{
+  "code": "0000",
+  "data": {
+    "accessToken": "eyJhbGciOiJIUzUxMiJ9.eyJhdWQiOiIxIiwic3ViIjoid3VoYWl5YW4iLCJleHAiOjE2NTMwNTcyNTIsImlhdCI6MTY1MzAyODQ1Mn0.WknzBQWY2u64--Sc84OmsGdB3AQdcvEzKpZJruXMFqciQDB6VK3ihIxYpj2WTwmKGN79fAMuDLQ-Mk57TA0QAw",
+    "expiresIn": 28800000,
+    "refreshTime": 7100000,
+    "refreshToken": "eyJhbGciOiJIUzUxMiJ9.eyJhdWQiOiIyIiwic3ViIjoid3VoYWl5YW4iLCJleHAiOjE2NTM2MzMyNTIsImlhdCI6MTY1MzAyODQ1Mn0.-pDqPP5Wd9aGR5CY70a_sswnqFtWR6icKYlbXDNZkMw9uxR3S41yuSIv4vKxdRvlE8ZakJdW5BZV_co-oKaqGg",
+    "scope": "all",
+    "subject": "wuhaiyan",
+    "tokenType": "jwt"
+  },
+  "msg": "Login was successful."
+}
+2022-05-20 14:34:12,972 - test_case01.py[line:23] - test_case01 - INFO - 
+                         _    _         _      _____         _
+          __ _ _ __ (_)  / \  _   _| |_ __|_   _|__  ___| |_
+         / _` | '_ \| | / _ \| | | | __/ _ \| |/ _ \/ __| __|
+        | (_| | |_) | |/ ___ \ |_| | || (_) | |  __/\__ \ |_
+         \__,_| .__/|_/_/   \_\__,_|\__\___/|_|\___||___/\__|
+              |_|
+              Starting      ...     ...     ...
+            
+2022-05-20 14:34:12,972 - test_case01.py[line:32] - test_case01 - INFO - 用例序号:testcase_02
+2022-05-20 14:34:12,972 - test_case01.py[line:33] - test_case01 - INFO - 用例名称:refreshOauthToken
+2022-05-20 14:34:12,972 - test_case01.py[line:34] - test_case01 - INFO - 请求url:http://uat.drp.orsd.tech/drpapi/oauth/refreshOauthToken
+2022-05-20 14:34:12,972 - test_case01.py[line:35] - test_case01 - INFO - 请求数据:None
+2022-05-20 14:34:12,972 - test_case01.py[line:36] - test_case01 - INFO - 请求方式:POST
+2022-05-20 14:34:12,972 - test_case01.py[line:37] - test_case01 - INFO - 请求头:yes
+2022-05-20 14:34:12,972 - test_case01.py[line:38] - test_case01 - INFO - 依赖:case1
+2022-05-20 14:34:12,972 - test_case01.py[line:39] - test_case01 - INFO - 依赖的返回数据:refreshToken
+2022-05-20 14:34:12,972 - test_case01.py[line:40] - test_case01 - INFO - 数据依赖字段:refreshToken
+2022-05-20 14:34:12,972 - test_case01.py[line:41] - test_case01 - INFO - 预期结果:code
+2022-05-20 14:34:13,043 - test_case01.py[line:81] - test_case01 - INFO - 返回结果为:{
+  "code": "0000",
+  "data": {
+    "accessToken": "eyJhbGciOiJIUzUxMiJ9.eyJhdWQiOiIxIiwic3ViIjoid3VoYWl5YW4iLCJleHAiOjE2NTMwNTcyNTIsImlhdCI6MTY1MzAyODQ1Mn0.WknzBQWY2u64--Sc84OmsGdB3AQdcvEzKpZJruXMFqciQDB6VK3ihIxYpj2WTwmKGN79fAMuDLQ-Mk57TA0QAw",
+    "expiresIn": 0,
+    "refreshTime": 30000,
+    "refreshToken": null,
+    "scope": "all",
+    "subject": "wuhaiyan",
+    "tokenType": "jwt"
+  },
+  "msg": "success"
+}
+2022-05-20 14:34:13,043 - test_case01.py[line:23] - test_case01 - INFO - 
+                         _    _         _      _____         _
+          __ _ _ __ (_)  / \  _   _| |_ __|_   _|__  ___| |_
+         / _` | '_ \| | / _ \| | | | __/ _ \| |/ _ \/ __| __|
+        | (_| | |_) | |/ ___ \ |_| | || (_) | |  __/\__ \ |_
+         \__,_| .__/|_/_/   \_\__,_|\__\___/|_|\___||___/\__|
+              |_|
+              Starting      ...     ...     ...
+            
+2022-05-20 14:34:13,043 - test_case01.py[line:32] - test_case01 - INFO - 用例序号:testcase_03
+2022-05-20 14:34:13,043 - test_case01.py[line:33] - test_case01 - INFO - 用例名称:listWarehouse
+2022-05-20 14:34:13,043 - test_case01.py[line:34] - test_case01 - INFO - 请求url:http://uat.drp.orsd.tech/drpapi/warehouse/truck/listWarehouse
+2022-05-20 14:34:13,043 - test_case01.py[line:35] - test_case01 - INFO - 请求数据:None
+2022-05-20 14:34:13,043 - test_case01.py[line:36] - test_case01 - INFO - 请求方式:POST
+2022-05-20 14:34:13,043 - test_case01.py[line:37] - test_case01 - INFO - 请求头:yes
+2022-05-20 14:34:13,044 - test_case01.py[line:38] - test_case01 - INFO - 依赖:None
+2022-05-20 14:34:13,044 - test_case01.py[line:39] - test_case01 - INFO - 依赖的返回数据:None
+2022-05-20 14:34:13,044 - test_case01.py[line:40] - test_case01 - INFO - 数据依赖字段:None
+2022-05-20 14:34:13,044 - test_case01.py[line:41] - test_case01 - INFO - 预期结果:code
+2022-05-20 14:34:13,532 - test_case01.py[line:81] - test_case01 - INFO - 返回结果为:{
+  "code": "0000",
+  "data": [
+    {
+      "code": 1,
+      "description": "CA1",
+      "qty": null,
+      "url": null
+    },
+    {
+      "code": 18,
+      "description": "NJ1",
+      "qty": null,
+      "url": null
+    },
+    {
+      "code": 50,
+      "description": "NJ2",
+      "qty": null,
+      "url": null
+    },
+    {
+      "code": 52,
+      "description": "CA2",
+      "qty": null,
+      "url": null
+    },
+    {
+      "code": 58,
+      "description": "AT1",
+      "qty": null,
+      "url": null
+    },
+    {
+      "code": 62,
+      "description": "CA3",
+      "qty": null,
+      "url": null
+    },
+    {
+      "code": 64,
+      "description": "NJ3",
+      "qty": null,
+      "url": null
+    },
+    {
+      "code": 66,
+      "description": "CAL1",
+      "qty": null,
+      "url": null
+    },
+    {
+      "code": 68,
+      "description": "AT2",
+      "qty": null,
+      "url": null
+    },
+    {
+      "code": 72,
+      "description": "CA4",
+      "qty": null,
+      "url": null
+    },
+    {
+      "code": 76,
+      "description": "NJ4",
+      "qty": null,
+      "url": null
+    },
+    {
+      "code": 78,
+      "description": "ATX3",
+      "qty": null,
+      "url": null
+    },
+    {
+      "code": 80,
+      "description": "ATX4",
+      "qty": null,
+      "url": null
+    }
+  ],
+  "msg": "success"
+}
+2022-05-20 14:34:13,532 - test_case01.py[line:23] - test_case01 - INFO - 
+                         _    _         _      _____         _
+          __ _ _ __ (_)  / \  _   _| |_ __|_   _|__  ___| |_
+         / _` | '_ \| | / _ \| | | | __/ _ \| |/ _ \/ __| __|
+        | (_| | |_) | |/ ___ \ |_| | || (_) | |  __/\__ \ |_
+         \__,_| .__/|_/_/   \_\__,_|\__\___/|_|\___||___/\__|
+              |_|
+              Starting      ...     ...     ...
+            
+2022-05-20 14:34:13,532 - test_case01.py[line:32] - test_case01 - INFO - 用例序号:testcase_04
+2022-05-20 14:34:13,532 - test_case01.py[line:33] - test_case01 - INFO - 用例名称:make_order
+2022-05-20 14:34:13,533 - test_case01.py[line:34] - test_case01 - INFO - 请求url:http://192.168.20.167:9876/usosj_test/order/dealOrders?platform=amazon&storeId=153&orderAmount=1&isImport=no
+2022-05-20 14:34:13,533 - test_case01.py[line:35] - test_case01 - INFO - 请求数据:{"platform":"amazon", "storeId":"153", "orderAmount":"1", "isImport":"no"}
+2022-05-20 14:34:13,533 - test_case01.py[line:36] - test_case01 - INFO - 请求方式:GET
+2022-05-20 14:34:13,533 - test_case01.py[line:37] - test_case01 - INFO - 请求头:yes
+2022-05-20 14:34:13,533 - test_case01.py[line:38] - test_case01 - INFO - 依赖:None
+2022-05-20 14:34:13,533 - test_case01.py[line:39] - test_case01 - INFO - 依赖的返回数据:None
+2022-05-20 14:34:13,533 - test_case01.py[line:40] - test_case01 - INFO - 数据依赖字段:None
+2022-05-20 14:34:13,533 - test_case01.py[line:41] - test_case01 - INFO - 预期结果:code
+2022-05-20 14:34:15,553 - test_case01.py[line:23] - test_case01 - INFO - 
+                         _    _         _      _____         _
+          __ _ _ __ (_)  / \  _   _| |_ __|_   _|__  ___| |_
+         / _` | '_ \| | / _ \| | | | __/ _ \| |/ _ \/ __| __|
+        | (_| | |_) | |/ ___ \ |_| | || (_) | |  __/\__ \ |_
+         \__,_| .__/|_/_/   \_\__,_|\__\___/|_|\___||___/\__|
+              |_|
+              Starting      ...     ...     ...
+            
+2022-05-20 14:34:15,553 - test_case01.py[line:32] - test_case01 - INFO - 用例序号:testcase_05
+2022-05-20 14:34:15,553 - test_case01.py[line:33] - test_case01 - INFO - 用例名称:edit_order
+2022-05-20 14:34:15,553 - test_case01.py[line:34] - test_case01 - INFO - 请求url:http://uat.drp.orsd.tech/drpapi/monitor/job/edit
+2022-05-20 14:34:15,553 - test_case01.py[line:35] - test_case01 - INFO - 请求数据:{"id":60,"jobName":"callStoreProcOrderImportPickUpTask","jobGroup":"OrderImport","methodName":"runParams","methodParams":"[153]","cronExpression":"0 20/45 * ? * *","misfirePolicy":3,"status":2,"duringRunPolicy":2,"deleteIdList":null}
+2022-05-20 14:34:15,553 - test_case01.py[line:36] - test_case01 - INFO - 请求方式:POST
+2022-05-20 14:34:15,553 - test_case01.py[line:37] - test_case01 - INFO - 请求头:yes
+2022-05-20 14:34:15,553 - test_case01.py[line:38] - test_case01 - INFO - 依赖:None
+2022-05-20 14:34:15,553 - test_case01.py[line:39] - test_case01 - INFO - 依赖的返回数据:None
+2022-05-20 14:34:15,554 - test_case01.py[line:40] - test_case01 - INFO - 数据依赖字段:None
+2022-05-20 14:34:15,554 - test_case01.py[line:41] - test_case01 - INFO - 预期结果:code
+2022-05-20 14:34:16,078 - test_case01.py[line:81] - test_case01 - INFO - 返回结果为:{
+  "code": "0000",
+  "data": true,
+  "msg": "success"
+}
+2022-05-20 14:34:16,078 - test_case01.py[line:23] - test_case01 - INFO - 
+                         _    _         _      _____         _
+          __ _ _ __ (_)  / \  _   _| |_ __|_   _|__  ___| |_
+         / _` | '_ \| | / _ \| | | | __/ _ \| |/ _ \/ __| __|
+        | (_| | |_) | |/ ___ \ |_| | || (_) | |  __/\__ \ |_
+         \__,_| .__/|_/_/   \_\__,_|\__\___/|_|\___||___/\__|
+              |_|
+              Starting      ...     ...     ...
+            
+2022-05-20 14:34:16,078 - test_case01.py[line:32] - test_case01 - INFO - 用例序号:testcase_06
+2022-05-20 14:34:16,078 - test_case01.py[line:33] - test_case01 - INFO - 用例名称:job_run
+2022-05-20 14:34:16,078 - test_case01.py[line:34] - test_case01 - INFO - 请求url:http://uat.drp.orsd.tech/drpapi/monitor/job/run
+2022-05-20 14:34:16,078 - test_case01.py[line:35] - test_case01 - INFO - 请求数据:{"id":60}
+2022-05-20 14:34:16,078 - test_case01.py[line:36] - test_case01 - INFO - 请求方式:POST
+2022-05-20 14:34:16,078 - test_case01.py[line:37] - test_case01 - INFO - 请求头:yes
+2022-05-20 14:34:16,079 - test_case01.py[line:38] - test_case01 - INFO - 依赖:None
+2022-05-20 14:34:16,079 - test_case01.py[line:39] - test_case01 - INFO - 依赖的返回数据:None
+2022-05-20 14:34:16,079 - test_case01.py[line:40] - test_case01 - INFO - 数据依赖字段:None
+2022-05-20 14:34:16,079 - test_case01.py[line:41] - test_case01 - INFO - 预期结果:code
+2022-05-20 14:34:16,393 - test_case01.py[line:81] - test_case01 - INFO - 返回结果为:{
+  "code": "0000",
+  "data": true,
+  "msg": "success"
+}

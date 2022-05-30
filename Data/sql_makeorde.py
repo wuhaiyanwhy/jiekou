@@ -3,9 +3,8 @@
 # Created on: ---
 import pymssql
 import time
-import random
 import logging
-logging.basicConfig(level=logging.DEBUG,format='%(asctime)s-%(filename)s%(funcName)s(%(lineno)d)[%(thread)d]-[%(levelname)s]%(message)s')
+logging.basicConfig(level=logging.DEBUG,format='%(asctime)s-%(filename)s%(funcName)s(%(lineno)d)-[%(levelname)s]%(message)s')
 
 class MakeOrder():
 
@@ -48,10 +47,10 @@ class MakeOrder():
         #     self.cur2.close()
 
     def insert_tblYzcOrders_888(self):
-        cur_date = time.strftime('%m%d', time.localtime(time.time()))
+        cur_date = time.strftime('%m%d%H%M%S', time.localtime(time.time()))
         start = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(time.time()))
 
-        for i in range(1,3001):
+        for i in range(1,2):
             OrderID = ('why'+'_'+cur_date+'_'+str(i))
             StoreID = '888'
             CreateDate = start
@@ -82,10 +81,10 @@ class MakeOrder():
             self.db2.commit()
 
     def insert_tblYzcOrders_212(self):
-        cur_date = time.strftime('%m%d', time.localtime(time.time()))
+        cur_date = time.strftime('%m%d%H%M%S', time.localtime(time.time()))
         start = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(time.time()))
 
-        for i in range(2, 5):
+        for i in range(1, 2):
             OrderID = ('why' + '_' + cur_date + '_' + str(i))
             StoreID = 212
             sql = "INSERT INTO Yahoo_Integration.dbo.tblYzcOrders( OrderID, OrdersFrom, StoreName, OrderDate, ShipName, ShipCompany, \
@@ -124,7 +123,7 @@ class MakeOrder():
 
 if __name__ == '__main__':
     a = MakeOrder()
-    a.insert_tblYzcOrders_888()
+    a.insert_tblYzcOrders_212()
 
 
 
